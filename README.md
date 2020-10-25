@@ -1,1 +1,0 @@
-# amy-mcg.github.io
