@@ -1,12 +1,9 @@
-==========================================================
- McGuire et al., 2022
-==========================================================
 
+# McGuire et al., 2022
+ 
 A poster presented at the 2022 QRA Conference at the University of Sheffield, UK. Feel free to contact a.mcguire@leeds.ac.uk with any enquiries!
 
-##Constraining the rate and magnitude of Last Interglacial sea-level change in North West Europe using newly collected cores from the southern North Sea 
-
-**Abstract**
+## Constraining the rate and magnitude of Last Interglacial sea-level change in North West Europe using newly collected cores from the southern North Sea
 
 Amy McGuire, Graham Rush, Oliver Pollard, Víctor Cartelle, Natasha Barlow, Dave Hodgson, Leah Babington, Freek Busschers, Kim Cohen, Lauren Gregoire, Natayla Gomez and Ivan Haigh 
 
