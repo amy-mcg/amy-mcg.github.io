@@ -13,4 +13,4 @@ Here we present our preliminary analysis of the sediment cores; including X-ray 
 
 Keywords: Interglacial, Eemian, Sea level, North Sea 
 
-Based on a template by Clément Pit-Claudel, 'follow the tutorial <https://cpitclaudel.github.io/academic-poster-template/tutorial/poster.html>' to create your own posters.
+Based on a template by Clément Pit-Claudel, [follow the tutorial](https://cpitclaudel.github.io/academic-poster-template/tutorial/poster.html) to create your own posters.
