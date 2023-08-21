@@ -488,6 +488,10 @@ mark,
   height: auto;
 }
 
+.tab { 
+  text-indent:40px 
+}
+
 .figure {
   display: inline-block;
 }
