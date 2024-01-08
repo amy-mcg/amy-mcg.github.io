@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>ERMS Talk, March 2023</title>
+		<style type="text/css">
+		
+		body{
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			height: 100%; 
+			max-height: 100%; 
+			font-family:Helvetica;
+			line-height: 1.5em;
+		}
+		
+		#nav{
+			position: absolute;
+			top: 0;
+			bottom: 0; 
+			left: 0;
+			width: 230px; /* Width of navigation frame */
+			height: 100%;
+			overflow: hidden; /* Disables scrollbars on the navigation frame. To enable scrollbars, change "hidden" to "scroll" */
+			background: #c0e6f0;
+		}
+		
+		main{
+			position: fixed;
+			top: 0; 
+			left: 230px; /* Set this to the width of the navigation frame */
+			right: 0;
+			bottom: 0;
+			overflow: auto; 
+			background: #fff;
+		}
+		
+		.innertube{
+			margin: 15px; /* Provides padding for the content */
+		}
+		
+		p {
+			color: #555;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav ul a {
+			color: 29485b;
+			text-decoration: none;
+		}
+			
+		/* unvisited link */
+a:link {
+  color: 29485b;
+}
+
+/* visited link */
+a:visited {
+  color: 29485b;
+}
+
+/* mouse over link */
+a:hover {
+  color: eee;
+}
+
+/* selected link */
+a:active {
+  color: eee;
+}
+				
+		/*IE6 fix*/
+		* html body{
+			padding: 0 0 0 230px; /* Set the last value to the width of the navigation frame */
+		}
+		
+		* html main{ 
+			height: 100%; 
+			width: 100%; 
+		}
+		
+		</style>
+	
+	</head>
+	
+	<body>		
+				
+		<main>
+			<div class="innertube">
+				<h1>The Quaternary Stratigraphy of the Southern North Sea</h1>
+				<h2>A supplement to Amy McGuire's January 2024 talk to the Brighton and Hove Geological Society</h2>
+				<p><b>A selection of interactive resources and journal articles of potential interest, building upon Amy McGuire's March 2023 talk for the Essex Rock and Mineral Society. You can find out more about Amy and her research by visiting her <a href = "https://amy-mcg.github.io/">personal website</a> or her <a href="https://environment.leeds.ac.uk/see/staff/10009/dr-amy-mcguire">staff page at the University of Leeds</a>. If you have any questions feel free to get in touch by <a href="mailto:a.mcguire@leeds.ac.uk">email</a> or on <a href="https://twitter.com/amymcg">twitter</a>.</b></p>
+				
+				<h2>Interactive tools</h2>
+				<p>The interactive version of the BRITICE map can be found <a href="https://shefuni.maps.arcgis.com/apps/webappviewer/index.html?id=fd78b03a74bb477c906c5d4e0ba9abaf">at this link</a>.</p>
+				<p>An animation of the retreat of the Eurasian Ice Sheet Complex (EISC) has been shared by <a href="https://twitter.com/i/status/875257643018985472">Henry Patton on twitter</a>.</p>
+				<p>A short video showing the methods through which microscopic glass shards of volcanic ash are extracted from sedimentary archives, put together by Danielle McLean, is <a href="https://www.youtube.com/watch?v=w-qtYuxu2DA">available on youtube</a>.</p>
+        
+        <h2>Further reading</h2>
+				<p>The <a href="https://riser.leeds.ac.uk">website for the RISeR project</a>, my current research project, hosted by the University of Leeds and led by Natasha Barlow.</p>
+				<p>For those interested in the most recent update of the Intergovernmental Panel on Climate Change's findings, you can access the <a href=https://www.ipcc.ch/report/sixth-assessment-report-cycle/">IPCC Sixth Assessment Report (AR6) here</a>.</p>
+				<p>An article for The Conversation about the role of Quaternary Geology in producing climate-friendly infrastructure, written by Prof Natasha Barlow, <a href ="https://theconversation.com/to-harness-the-north-sea-winds-we-must-understand-its-complicated-seabed-geology-173710">is available online here</a>.
+					
+        <h2>Bibliography</h2>
+	<iframe src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F11372722%2Fcollections%2FCYSSA46F%2Fitems%3Fkey%3DUWrJ8kRwEXd5uFscBIxLUYln%26format%3Dbibtex%26limit%3D100" width = 100% height = 30%></iframe>
+       
+        
+				
+			</div>
+		</main>
+	
+		<nav id="nav">
+			<div class="innertube">
+			
+					<h3>Amy McGuire</h3>
+					<p>Research Fellow in Quaternary Palynology<br>
+					School of Earth and Enviornment<br>
+					University of Leeds</p>
+					<p> <a href = "https://amy-mcg.github.io/">website</a> | <a href="mailto:a.mcguire@leeds.ac.uk">email</a> | <a href="https://twitter.com/amymcg">twitter</a></h5>
+					
+        
+			</ul>
+			</div>
+		</nav>
+	
+	</body>
+</html>
