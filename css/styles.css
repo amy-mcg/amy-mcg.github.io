@@ -3905,6 +3905,7 @@ input[type=button].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  color: #6c757d;
 }
 
 .nav-link {
@@ -3912,6 +3913,7 @@ input[type=button].btn-block {
   padding: 0.5rem 1rem;
 }
 .nav-link:hover, .nav-link:focus {
+  color: #6c757d;
   text-decoration: none;
 }
 .nav-link.disabled {
@@ -3942,8 +3944,8 @@ input[type=button].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: ##F9F8F8;
-  border-color: #dee2e6 #dee2e6 ##F9F8F8;
+  background-color: #F9F8F8;
+  border-color: #dee2e6 #dee2e6 #F9F8F8;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
