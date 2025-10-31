@@ -1,0 +1,88 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <a href="https://amy-mcg.github.io/index.html"> <title>Amy McGuire</title></a>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Trirong" rel="stylesheet" />
+  <style>
+    body {
+      scroll-behavior: smooth;
+      margin: 0;
+      padding: 0;
+      font-family: "Trirong", serif;
+      background-color: #654ea3;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      background-color: transparent !important;
+    }
+
+    .navbar-nav .nav-link {
+      color: white !important;
+      font-weight: bold;
+    }
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: left;
+    }
+    #hero1 { background: linear-gradient(to bottom, #654ea3, #eaafc8); }
+
+    .btn-light {
+      background-color: transparent !important;
+      color: white;
+      font-weight: bold;
+    }
+    .btn-light {
+      background-color: transparent !important;
+      color: white;
+      font-weight: bold;
+      line-weight: 0;
+    }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">Amy McGuire</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="/cv.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="/papers.html">Papers</a></li>
+          <li class="nav-item"><a class="nav-link" href="/blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<section id="hero1" class="hero">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="col-lg-12">
+          <p class="lead">
+            <h1>{{ page.title }}</h1>
+<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+{{ content }}
+          </div>
+        </div>
+  </section>
+
+
+
+      <hr>
+    </div>
+  </body>
+</html>
