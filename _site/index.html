@@ -58,12 +58,19 @@
     .spacer {
       height: 56px;
     }
+    .rounded-image {
+    width : 140px;
+    height: 140px;
+    border-radius: 50%;
+   overflow: hidden;
+   object-position: center; 
+}
   </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand text-white" href="#">Amy McGuire</a>
+      <a class="navbar-brand text-white" href="/index.html">Amy McGuire</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -172,7 +179,7 @@
                     fill="var(--bs-secondary-color)"
                   ></rect>
                 </svg>
-                <h2 class="fw-normal"><a class="nav-link" href="https://amy-mcg.github.io/blog.html">Blog</a></h2>
+                <h2 class="fw-normal"><a class="nav-link" href="/blog.html">Blog</a></h2>
                 <p>
                   You can read my blog
                 </p>
@@ -180,8 +187,8 @@
               <!-- /.col-lg-4 -->
               <div class="col-lg-4">
                 <svg
-                  aria-label="Placeholder"
-                  class="bd-placeholder-img rounded-circle"
+                  src="Images/papers.png"
+                  class="rounded-image"
                   height="140"
                   preserveAspectRatio="xMidYMid slice"
                   role="img"
@@ -194,22 +201,19 @@
                     height="100%"
                     fill="var(--bs-secondary-color)"
                   ></rect>
-                </svg>
-                <h2 class="fw-normal"><a class="nav-link" href="https://amy-mcg.github.io/papers.html">Papers</a></h2>
+                  </svg>
+                <h2 class="fw-normal"><a class="nav-link" href="/papers.html">Papers</a></h2>
                 <p>
                   You can read my scientific papers
                 </p>
               </div>
               <!-- /.col-lg-4 -->
               <div class="col-lg-4">
-                <svg
-                  aria-label="Placeholder"
-                  class="bd-placeholder-img rounded-circle"
+                <img
+                  src="Images/papers.png"
+                  class="rounded-image"
                   height="140"
-                  preserveAspectRatio="xMidYMid slice"
-                  role="img"
                   width="140"
-                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <title>Contact</title>
                   <rect
@@ -217,7 +221,7 @@
                     height="100%"
                     fill="var(--bs-secondary-color)"
                   ></rect>
-                </svg>
+              </img>
                 <h2 class="fw-normal"><a class="nav-link" href="mailto:amy.mcguire@manchester.ac.uk">Contact</a></h2>
                 <p>
                   You can drop me an email
