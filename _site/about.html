@@ -10,6 +10,7 @@
       margin: 0;
       font-family: "Trirong", serif;
       background-color: #654ea3;
+      background-image: linear-gradient(to bottom, #654ea3, #eaafc8);
     }
 
     .navbar {
@@ -47,16 +48,15 @@
 
     .hero {
       min-height: 100vh;
-      display: flex;
-      flex-direction: column;
+      display: fixed;
       justify-content: center;
       align-items: center;
       color: white;
       text-align: left;
+      overscroll-behavior: none;
     }
 
-    #hero1 { background: linear-gradient(to bottom, #654ea3, #eaafc8); }
-
+   #hero1 { background: linear-gradient(to bottom, #654ea3, #eaafc8); }
 
     .btn-light {
       background-color: transparent !important;
@@ -72,16 +72,15 @@
       margin: 10px;
     }
 
-    .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #eaafc8;
-  color: white;
-  font-size: small;
-  text-align: center;
-}
+    spacer {
+      height: 56px;
+    }
+
+     .footer {
+      background: linear-gradient(to bottom, #eaafc8, #654ea3);
+      height: 50px;
+    }
+    
   </style>
 </head>
 <body>
@@ -101,14 +100,13 @@
       </div>
     </div>
   </nav>
-
-   <div class="spacer"></div>
+       <div class="spacer"></div>
 
   <section id="hero1" class="hero">
     <div class="container col-xxl-8 px-4 py-5">
         <div class="col-lg-12">
-          <h1>About Me</h1>
           <p class="lead">
+          <h1>About Me</h1>
             <h4>Bio</h4>
             <p>I come from a big ol' Irish family. My home is small village called Kilcar in rural Donegal, but I lived much of my early life on the sunny south coast of England. I moved away at 18 to go to university, and have been moderately nomadic ever since.</p>
             <p>When I'm not in the lab or in the field I am usually swimming. As I am a cisgender white woman in my thirties I think wild swimming is an acceptable substitute for a personality, and there is nothing that brings me more joy than throwing myself into a lake or the sea. If you would like to read more about my aquatic adventures I have a rarely updated <a href="https://cantseeland.wordpress.com/">swimming blog</a>, or you can listen to me waffle on about mountains on my friend Ronni's <a href="https://podcasts.apple.com/us/podcast/82-yha-helvelyn-ullswater-swims-have-no-synonyms/id1720572605?i=1000736506015">podcast</a>.</p>
@@ -120,19 +118,15 @@
           <p class=""lead>
             <h4>Website</h4>
             <p>I made this website from scratch using skills I developed as a teenager messing around on myspace, and a lot of help from the <a href="https://jekyllrb.com">Jekyll website</a>.</p>
-            <p>The gifs on the homepage I made myself, using a combination of Adobe Photoshop and Illustrator alongside a good deal of stubborness. The graphics on the home page were created by ChatGPT, using prompts such as "generate image of a fountain pen and notepad in the style of a japanese watercolour painting with the colour palette #654ea3 #eaafc8" as I have decided sometimes I don't need to break myself when a tool exists that can do it more efficiently. I do plan to carbon offset my AI usage annually, check my blog to see if I follow through on that.</p> 
-            <p>If you would like to use this website as a template do feel free, the full code is available openly on my <a href="https://github.com/amy-mcg/amy-mcg.github.io">github repo</a>. I would appreciate credit where credit is due, however life is too short to track you down, so do feel free to just steal.</p>
+            <p>The gifs on the homepage I made myself, using a combination of Adobe Photoshop and Illustrator alongside a good deal of stubborness. The graphics on the home page were created by ChatGPT, using prompts such as "generate image of a fountain pen and notepad in the style of a watercolour painting with the colour palette #654ea3 #eaafc8" as I have decided sometimes I don't need to break myself when a tool exists that can do it more efficiently. I do plan to carbon offset my AI usage annually, check my blog to see if I follow through on that.</p> 
+            <p>If you would like to use this website as a template do feel free, the full code is available openly on my <a href="https://github.com/amy-mcg/amy-mcg.github.io">github repo</a>. I would appreciate credit where credit is due, but I'm not in this game for clout so you can just steal.</p>
           </p>
           </div>
         </div>
       </div>
   </section>
 
-
-      <hr>
     </div>
-    <div class="footer">
-  <p>&#169; Amy McGuire, 2025</p>
-</div>
+    <div class = "footer"></div>
   </body>
 </html>
