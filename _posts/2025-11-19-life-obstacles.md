@@ -1,7 +1,7 @@
 ---
 layout: posts
 author: Amy
-title:  "Life and Other Obstacles"
+title:  "Life and other obstacles"
 ---
 I wish this second update was a more cheerful one, filled with exciting adventures and collaborations. That update, however much I long to write it, would not be the truth of this month. The truth of this month, and last month actually (although I wasn't ready to write about it yet), is far more painful.
 
