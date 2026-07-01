@@ -1,7 +1,7 @@
 ---
 layout: posts
 author: Amy
-title:  "On Precarity and Perspective"
+title:  "On precarity and perspective"
 ---
 
 I have now been a research fellow at the University of Manchester for twenty-three days. They have been full days: a great deal has happened, and yet they have passed remarkably quickly. Earlier this week, I attended the induction for my fellowship cohort, where it was made clear—gently but unmistakably—that this pace is unlikely to slow. As in most areas of academic life, momentum tends to be self-perpetuating.
