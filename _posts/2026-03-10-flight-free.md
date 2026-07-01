@@ -1,7 +1,7 @@
 ---
 layout: posts
 author: Amy
-title: "Choosing Not to Fly"
+title: "Why I choose not to fly"
 ---
 
 As an academic who studies past climate change, I spend a lot of time thinking about how environments shift, how societies adapt, and how the smallest changes can ripple outward over centuries. Somewhere along the way, that professional curiosity became something more personal. It began to shape the practical choices I make—how I live, how I move, how I travel.
