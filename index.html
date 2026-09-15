@@ -1,5 +1,7 @@
 ---
 layout: home
+title: Amy McGuire | Physical Geographer
+description: Amy McGuire is a physical geographer who studies past climates, landscapes, and environmental change.
 ---
 
   <div class="spacer"></div>
@@ -16,16 +18,16 @@ layout: home
           <img
             src="https://amy-mcg.github.io/Images/Earth.gif"
             class="d-block mx-lg-auto img-fluid"
-            alt="Bootstrap Themes"
+            alt="Animated illustration of the Earth"
             width="700"
             height="500"
             loading="lazy"
           />
       </div>
         <div class="col-lg-6">
-          <p class="lead">
+          <div class="lead">
             <h2>I'm a physical geographer interested in how our planet changed in the past and might change in the future.</h2> <br> <a href="#hero3" class="btn btn-light">&darr;</a>
-          </p>
+          </div>
           </div>
         </div>
       </div>
@@ -38,21 +40,22 @@ layout: home
           <img
             src="https://amy-mcg.github.io/Images/Pollen.gif"
             class="d-block mx-lg-auto img-fluid"
-            alt="Bootstrap Themes"
+            alt="Animated illustration of pollen grains"
             width="700"
             height="500"
             loading="lazy"
           />
       </div>
         <div class="col-lg-8">
-            <h2><p>I mostly work with mud!</p></h2>
-            <h3>
+            <h2>I mostly work with mud!</h2>
+            <div class="lead">
             <p>Mud, or <it>sediment</it> if we're being scientific, holds a variety of clues into how Earth has changed over time. It can tell us about...</p>
             <ul>
-              <li>How temperatures rose and fell
-              <li>How glaciers expanded and contracted
-              <li>How ecosystems changed
-            </h3></ul>
+              <li>How temperatures rose and fell</li>
+              <li>How glaciers expanded and contracted</li>
+              <li>How ecosystems changed</li>
+            </ul>
+            </div>
              <a href="#hero4" class="btn btn-light">&darr;</a>
           </div>
         </div>
@@ -81,6 +84,7 @@ layout: home
                  <img
                   src="Images/blog.png"
                   class="rounded-image"
+                  alt="Blog illustration"
                   height="140"
                   width="140"
                 >
@@ -101,6 +105,7 @@ layout: home
                 <img
                   src="Images/papers.png"
                   class="rounded-image"
+                  alt="Papers illustration"
                   height="140"
                   width="140"
                 >
@@ -122,6 +127,7 @@ layout: home
                 <img
                   src="Images/contact.png"
                   class="rounded-image"
+                  alt="Contact illustration"
                   height="140"
                   width="140"
                 >
@@ -134,7 +140,7 @@ layout: home
               </img>
                 <h2 class="fw-normal"><a class="nav-link" href="mailto:amy.mcguire@manchester.ac.uk">Contact</a></h2>
                 <p>
-                  You can drop me an email
+                  You can drop me an email, including to invite me to give a talk
                 </p>
               </div>
               <!-- /.col-lg-4 -->
@@ -160,7 +166,7 @@ layout: home
           <img
             src="https://amy-mcg.github.io/Images/Lanscape.gif"
             class="d-block mx-lg-auto img-fluid"
-            alt="Bootstrap Themes"
+            alt="Animated illustration of a landscape"
             width="700"
             height="500"
             loading="lazy"
@@ -173,7 +179,7 @@ layout: home
       </div>
   </section>
 
- <section id="footer" class="bottom"><p>&#169; Amy McGuire, 2025</p></section>
+ <section id="footer" class="bottom"><p>&#169; Amy McGuire, {{ site.time | date: "%Y" }}</p></section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

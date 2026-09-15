@@ -1,7 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <a href="https://amy-mcg.github.io/index.html"> <title>Amy McGuire</title></a>
+  <meta name="description" content="Physical geographer Amy McGuire on research, public talks, swimming, cricket and remaining inexplicably loyal to Southampton FC." />
+  <title>About Amy McGuire</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Trirong" rel="stylesheet" />
   <style>
@@ -48,7 +51,8 @@
 
     .hero {
       min-height: 100vh;
-      display: fixed;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       color: white;
@@ -72,9 +76,6 @@
       margin: 10px;
     }
 
-    spacer {
-      height: 56px;
-    }
 
      .footer {
       background: linear-gradient(to bottom, #eaafc8, #654ea3);
@@ -82,13 +83,32 @@
     }
     
   </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Amy McGuire",
+    "jobTitle": "Bicentenary Fellow in Geography",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "The University of Manchester"
+    },
+    "url": "https://amy-mcg.github.io/",
+    "sameAs": [
+      "https://research.manchester.ac.uk/en/persons/amy-m%E1%B6%9Cguire/",
+      "https://orcid.org/0000-0001-6974-1171",
+      "https://scholar.google.com/citations?user=m4dNp_kAAAAJ&hl=en",
+      "https://github.com/amy-mcg"
+    ]
+  }
+  </script>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand text-white" href="/index.html">Amy McGuire</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -102,32 +122,64 @@
     </div>
   </nav>
 
-       <div class="spacer"></div>
+<div class="spacer"></div>
 
-  <section id="hero1" class="hero">
-    <div class="container col-xxl-8 px-4 py-5">
-          <p class="lead">
-          <h1>About Me</h1>
-            <h4>Bio</h4>
-            <p>I come from a big ol' Irish family. My home is small village called Kilcar in rural Donegal, but I lived much of my early life on the sunny south coast of England. I moved away at 18 to go to university, and have been moderately nomadic ever since.</p>
-            <p>When I'm not in the lab or in the field I am usually swimming. As I am a cisgender white woman in my thirties I think wild swimming is an acceptable substitute for a personality, and there is nothing that brings me more joy than throwing myself into a lake or the sea. If you would like to read more about my aquatic adventures I have a rarely updated <a href="https://cantseeland.wordpress.com/">swimming blog</a>, or you can listen to me waffle on about mountains on my friend Ronni's <a href="https://podcasts.apple.com/us/podcast/82-yha-helvelyn-ullswater-swims-have-no-synonyms/id1720572605?i=1000736506015">podcast</a>.</p>
-            <p>Alternatively you may find me at St. Mary's as, having had a season ticket from the age of 7, I for some reason remain a Southampton FC fan and I suspect it may be too late to change my allegiances. </p>
-            <p>My other interests include watching cricket, and listening to cricket, and badly playing cricket. During the COVID pandemic I got a <a href="https://www.youtube.com/watch?v=0tDrBkOATHc&t=22586s">shout out on TMS</a> and it is still one of my favourite things to have ever happened.</p>
-            <p>Although I claim to only like sad indie music I'm actually fairly eclectic in my tastes - sometimes I even listen to happy indie music. You can get far too much information about my past, current and, eventually, future music taste by digging into my <a href="https://www.last.fm/user/amysfc">last.fm</a> account.</p>
-            <p>As someone who studies climate change, it is impossible to be apolitical. My politics, however, are not exclusively environmental. First and foremost, I am a socialist, and believe the ongoing climate crisis is a product of our fundamentally flawed economic system which continuously places profit before people and planet. If you would like to argue with me you can find me on <a href="https://bsky.app/profile/amymcg.bsky.social">bluesky</a>, or if you just want to shout into the void you can tell me off on the website formerly known as <a href ="https://twitter.com/amymcg/">twitter</a>.</p>
-          </p>
-          <p class=""lead>
-            <h4>Website</h4>
-            <p>I made this website from scratch using skills I developed as a teenager messing around on myspace, and a lot of help from the <a href="https://jekyllrb.com">Jekyll website</a>.</p>
-            <p>The gifs on the homepage I made myself, using a combination of Adobe Photoshop and Illustrator alongside a good deal of stubborness. The graphics on the home page were created by ChatGPT, using prompts such as "generate image of a fountain pen and notepad in the style of a watercolour painting with the colour palette #654ea3 #eaafc8" as I have decided sometimes I don't need to break myself when a tool exists that can do it more efficiently. I do plan to carbon offset my AI usage annually, check my blog to see if I follow through on that.</p> 
-            <p>If you would like to use this website as a template do feel free, the full code is available openly on my <a href="https://github.com/amy-mcg/amy-mcg.github.io">github repo</a>. I would appreciate credit where credit is due, but I'm not in this game for clout so you can just steal.</p>
-          </p>
-        </div>
-      </div>
-  </section>
+<section id="hero1" class="hero">
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="col-lg-12">
 
+      <h1>About Me</h1>
+
+      <h4>Bio</h4>
+
+      <p>I come from a big ol' Irish family. My home is small village called Kilcar in rural Donegal, but I lived much of my early life on the sunny south coast of England. I moved away at 18 to go to university, and have been moderately nomadic ever since.</p>
+
+      <p>When I'm not in the lab or in the field I am usually swimming. As I am a cisgender white woman in my thirties I think wild swimming is an acceptable substitute for a personality, and there is nothing that brings me more joy than throwing myself into a lake or the sea. If you would like to read more about my aquatic adventures I have a rarely updated <a href="https://cantseeland.wordpress.com/">swimming blog</a>, or you can listen to me waffle on about mountains on my friend Ronni's <a href="https://podcasts.apple.com/us/podcast/82-yha-helvelyn-ullswater-swims-have-no-synonyms/id1720572605?i=1000736506015">podcast</a>.</p>
+
+      <p>Alternatively you may find me at St. Mary's as, having had a season ticket from the age of 7, I for some reason remain a Southampton FC fan and I suspect it may be too late to change my allegiances.</p>
+
+      <p>My other interests include watching cricket, and listening to cricket, and badly playing cricket. During the COVID pandemic I got a <a href="https://www.youtube.com/watch?v=0tDrBkOATHc&t=22586s">shout out on TMS</a> and it is still one of my favourite things to have ever happened.</p>
+
+      <p>Although I claim to only like sad indie music I'm actually fairly eclectic in my tastes - sometimes I even listen to happy indie music. You can get far too much information about my past, current and, eventually, future music taste by digging into my <a href="https://www.last.fm/user/amysfc">last.fm</a> account.</p>
+
+      <p>As someone who studies climate change, it is impossible to be apolitical. My politics, however, are not exclusively environmental. First and foremost, I am a socialist, and believe the ongoing climate crisis is a product of our fundamentally flawed economic system which continuously places profit before people and planet. If you would like to argue with me you can find me on <a href="https://bsky.app/profile/amymcg.bsky.social">bluesky</a>, or if you just want to shout into the void you can tell me off on the website formerly known as <a href="https://twitter.com/amymcg/">twitter</a>.</p>
+
+      <p>Finally, I am always happy to be contacted should you wish to discuss science/music/cricket/Southampton Football Club, and especially if you'd like to tell me how amazing I'm doing. I can be reached by email <a href="mailto:amy.mcguire@manchester.ac.uk">here</a>. I am autistic, and sometimes get overwhelmed, so please don't be offended if I don't get back to you straight away.</p>
+
+      <h4 class="section-heading">Talks</h4>
+
+      <p>I absolutely love sharing my research with interested audiences of all shapes and sizes. I regularly give talks for geographical and geological societies, natural history groups, and community organisations. One talk I am particularly excited to be giving at the moment explores <i>Bavelonia</i>, an ancient land bridge that once connected Britain to continental Europe:</p>
+
+      <p><b>Britain the Peninsula: Lost Landscapes beneath the North Sea</b></p>
+
+      <p>Britain was not always an island. More than a million years ago, a vast lowland landscape connected Britain to continental Europe across what is now the North Sea. In this talk, I will introduce <i>Bavelonia</i>, a land bridge that persisted for hundreds of thousands of years, experienced dramatic environmental change, and witnessed the arrival of some of the earliest humans in northern Europe. Using evidence from the seabed, including seismic surveys and sediment cores, I will reveal what this lost landscape looked like and reflect on why it matters.</p>
+
+      <p>If you would like me to come and speak, I am best contacted by <a href="mailto:amy.mcguire@manchester.ac.uk">email</a>.</p>
+
+      <h4 class="section-heading">Recommendations</h4>
+
+      <p>No one has ever really asked me for a recommendation, ever, but I like to provide them unsolicited anyway. Here are some things I would like to recommend to you, person who has really got stuck into the weeds of my silly little website. They are not the cool things, just the ones I would like you to know about so I can have intense conversations with you.</p>
+
+            <ul>
+              <li><b>Books:</b> <i>Fear and Loathing in La Liga</i> by Sid Lowe, <i>The Inland Sea</i> by Madeleine Watts, and <i>Lord of Scoundrels</i> by Loretta Chase</li>
+              <li><b>Songs:</b> <a href="https://open.spotify.com/track/4p9t4FIyBzWtO8EJlHlxCH?si=1728cac6dc164fa3"><i>The Deep Blue Okay</i></a> by Self Esteem, <a href="https://open.spotify.com/track/2JQsme5O9BGF8uEy3GgSgh?si=027aeca75176439d"><i>Stay Here and Take Care of the Chickens</i></a> by The Wave Pictures, and <a href="https://open.spotify.com/track/7g9jT48tuZIG9jU0ftcOn5?si=e1ece8fb10c242cd"><i>The Great Pyramid of Stockport</i></a> by Antony Szmierek.</li>
+              <li><b>Fell walks:</b> High Raise from Borrowdale, Haystacks from Ennerdale, Wetherlam from Coniston Water, and Barf from Bassenthwaite.</li>
+              <li><b>Podcasts:</b> The Spanish Football Podcast, What Did You Do Yesterday?, and The Worst Idea of All Time.</li>
+              <li><b>TV:</b> Guy Montgomery's Guy Mont Spelling Bee, Gone Fishing with Mortimer and Whitehouse, Ted Lasso, and Derry Girls.</li>
+              <li><b>Pilgrimages:</b> The Camino Primitivo, Oasis at Knebworth, and the Darts at Ally Pally.</li>
+            </ul>
+
+      <p>Recommendations are, of course, subject to change without notice.</p>
+
+      <h4 class="section-heading">Website</h4>
+
+      <p>I made this website from scratch using skills I developed as a teenager messing around on myspace, and a lot of help from the <a href="https://jekyllrb.com">Jekyll website</a>. The gifs on the homepage I made myself, using a combination of Adobe Photoshop and Illustrator alongside a good deal of stubborness. Academic friends, you're welcome to use them to jazz up your lectures if you'd like. Finally, for anyone out there who finds most academic websites boring, if you would like to use this website as a template do feel free, the full code is available openly on my <a href="https://github.com/amy-mcg/amy-mcg.github.io">github repo</a>. I would appreciate credit where credit is due, but I'm not in this game for clout so you can just steal.</p>
 
     </div>
-    <div class = "footer"></div>
-  </body>
+  </div>
+</section>
+
+<div class = "footer"></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>

@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="description" content="Amy McGuire is a physical geographer who studies past climates, landscapes, and environmental change.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <a href="https://amy-mcg.github.io/index.html"> <title>Amy McGuire</title></a>
+  <title>Amy McGuire | Physical Geographer</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Trirong" rel="stylesheet" />
   <style>
@@ -49,7 +50,7 @@
       }
 
     .hero {
-      height: 100vh;
+      min-height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -96,13 +97,30 @@
     }
 
   </style>
+  <script type="application/ld+json">{
+"@context": "https://schema.org",
+"@type": "Person",
+"name": "Amy McGuire",
+"jobTitle": "Bicentenary Fellow in Geography",
+"affiliation": {
+"@type": "CollegeOrUniversity",
+"name": "The University of Manchester"
+},
+"url": "https://amy-mcg.github.io/",
+"sameAs": [
+"https://research.manchester.ac.uk/en/persons/amy-m%E1%B6%9Cguire/",
+"https://orcid.org/0000-0001-6974-1171",
+"https://scholar.google.com/citations?user=m4dNp_kAAAAJ&hl=en",
+"https://github.com/amy-mcg"
+]
+}</script>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand text-white" href="/index.html">Amy McGuire</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -130,16 +148,16 @@
           <img
             src="https://amy-mcg.github.io/Images/Earth.gif"
             class="d-block mx-lg-auto img-fluid"
-            alt="Bootstrap Themes"
+            alt="Animated illustration of the Earth"
             width="700"
             height="500"
             loading="lazy"
           />
       </div>
         <div class="col-lg-6">
-          <p class="lead">
+          <div class="lead">
             <h2>I'm a physical geographer interested in how our planet changed in the past and might change in the future.</h2> <br> <a href="#hero3" class="btn btn-light">&darr;</a>
-          </p>
+          </div>
           </div>
         </div>
       </div>
@@ -152,21 +170,22 @@
           <img
             src="https://amy-mcg.github.io/Images/Pollen.gif"
             class="d-block mx-lg-auto img-fluid"
-            alt="Bootstrap Themes"
+            alt="Animated illustration of pollen grains"
             width="700"
             height="500"
             loading="lazy"
           />
       </div>
         <div class="col-lg-8">
-            <h2><p>I mostly work with mud!</p></h2>
-            <h3>
+            <h2>I mostly work with mud!</h2>
+            <div class="lead">
             <p>Mud, or <it>sediment</it> if we're being scientific, holds a variety of clues into how Earth has changed over time. It can tell us about...</p>
             <ul>
-              <li>How temperatures rose and fell
-              <li>How glaciers expanded and contracted
-              <li>How ecosystems changed
-            </h3></ul>
+              <li>How temperatures rose and fell</li>
+              <li>How glaciers expanded and contracted</li>
+              <li>How ecosystems changed</li>
+            </ul>
+            </div>
              <a href="#hero4" class="btn btn-light">&darr;</a>
           </div>
         </div>
@@ -195,6 +214,7 @@
                  <img
                   src="Images/blog.png"
                   class="rounded-image"
+                  alt="Blog illustration"
                   height="140"
                   width="140"
                 >
@@ -215,9 +235,11 @@
                 <img
                   src="Images/papers.png"
                   class="rounded-image"
+                  alt="Papers illustration"
                   height="140"
                   width="140"
                 >
+                
                   <title>Papers</title>
                   <rect
                     width="100%"
@@ -235,6 +257,7 @@
                 <img
                   src="Images/contact.png"
                   class="rounded-image"
+                  alt="Contact illustration"
                   height="140"
                   width="140"
                 >
@@ -247,7 +270,7 @@
               </img>
                 <h2 class="fw-normal"><a class="nav-link" href="mailto:amy.mcguire@manchester.ac.uk">Contact</a></h2>
                 <p>
-                  You can drop me an email
+                  You can drop me an email, including to invite me to give a talk
                 </p>
               </div>
               <!-- /.col-lg-4 -->
@@ -273,7 +296,7 @@
           <img
             src="https://amy-mcg.github.io/Images/Lanscape.gif"
             class="d-block mx-lg-auto img-fluid"
-            alt="Bootstrap Themes"
+            alt="Animated illustration of a landscape"
             width="700"
             height="500"
             loading="lazy"
@@ -286,7 +309,7 @@
       </div>
   </section>
 
- <section id="footer" class="bottom"><p>&#169; Amy McGuire, 2025</p></section>
+ <section id="footer" class="bottom"><p>&#169; Amy McGuire, 2026</p></section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
